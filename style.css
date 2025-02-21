@@ -1,0 +1,119 @@
+/* Reinicio básico */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #004d00, #ffffff, #800000);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Título */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 20px;
+}
+
+/*letras de los colores*/
+.control {
+    color: black;
+    text-shadow: 2px 2px 4px white;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de la bandera */
+.flag {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 1080px;
+    height: 480px;
+    gap: 0;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+/* Cada sección de la bandera */
+.flag-section {
+    width: 360px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fondo semitransparente para mejorar visibilidad del texto */
+.text-bg {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Estilo de los títulos */
+.flag-section h2 {
+    font-size: 1.1rem;
+    color: white;
+}
+
+/* Control de sliders */
+.flag-section .control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    height: 60px;
+}
+
+.flag-section .control label,
+.flag-section .control p {
+    font-size: 0.9rem;
+    color: black;
+}
+
+/* Secciones de color */
+.left, .center, .right {
+    width: 100%;
+    flex: 1;
+    border-radius: 5px;
+}
+
+/* Sección verde */
+.left {
+    background-color: rgb(0, 128, 0);
+}
+
+/* Sección blanca */
+.center {
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sección roja */
+.right {
+    background-color: rgb(128, 0, 0);
+}
+
+/*Escudo */
+img {
+    width: 150px;
+}
+
+/*Viletas */
+.vine {
+    color: white;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    text-shadow: -1px 1px 4px black;
+}
+ul {
+    color: white;
+}
